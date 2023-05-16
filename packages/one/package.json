@@ -1,0 +1,8 @@
+{
+  "name": "one",
+  "version": "0.0.0",
+  "bin": {
+    "test": "./bin/test.sh"
+  },
+  "private": true
+}

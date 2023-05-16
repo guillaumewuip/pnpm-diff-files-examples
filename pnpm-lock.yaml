@@ -1,0 +1,11 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  packages/one: {}
+
+  packages/two:
+    dependencies:
+      one:
+        specifier: workspace:*
+        version: link:../one
